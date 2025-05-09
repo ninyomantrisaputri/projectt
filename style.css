@@ -215,9 +215,6 @@ header {
   transition: color 0.3s;
 }
 
-.kontak {
-  background: black;
-}
 .close:hover,
 .close:focus {
   color: #bbb;
@@ -225,8 +222,10 @@ header {
   cursor: pointer;
 }
 
-.contact-section {
+.kontak {
   background: url(img/darkbg.jpeg) no repeat repeat cover;
+}
+.contact-section {
   border-radius: 10px;
   padding: 40px 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
