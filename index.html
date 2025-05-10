@@ -28,7 +28,8 @@
       data-bs-target="bg-dark"
     >
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">SMAN 8 LUWU TIMUR</a>
+        <a class="navbar-brand" href="#">
+          <img src="img/logosekolah.jpeg" alt="Logo Sekolah" width="30" height="40" class="d-inline-block align-text-top">SMAN 8 LUWU TIMUR</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -86,12 +87,14 @@
     <!--jumbortron/banner-->
     <div class="container-fruid banner">
       <div class="container text-center">
+        
         <h4 class="display-3" id="home">Selamat Datang di SMAN 8 LUWU TIMUR</h4>
-        <h3 classs="display-1">Hai! Kawan..!</h3>
 
-        <button type="button" onclick="seemore()" class="btn-btn-danger btn-lg">
+        <a href="#visi-misi">
+        <button type="button" class="btn-btn-danger btn-lg">
           See More
         </button>
+        </a>
       </div>
     </div>
 
@@ -155,12 +158,13 @@
     <div class="container profil pt-5 pb-5">
       <div class="container">
         <h2 class="display-3" id="profil">Profil</h2>
-  
+        
         <div class="kepsek">
           <img src="/img/kepala-sekolah.jpg" alt="Kepala Sekolah">
           <h3>Drs. H. BAKHTIAR M.Si</h3>
           <p>Kepala Sekolah</p>
         </div>
+
         <div class="profile-grid">
         <div class="profile-card">
           <img src="/img/wakil-kurikulum.jpg" alt="Wakasek Kurikulum">
@@ -203,7 +207,7 @@
         <!-- Fasilitas 1 -->
         <div class="col-md-4">
           <div class="card h-100 shadow-sm">
-            <img src="img/labkomputer1.jpeg" class="card-img-top" alt="Laboratorium Komputer 1">
+            <img src="img/labkomputer2.jpeg" class="card-img-top" alt="Laboratorium Komputer 1">
             <div class="card-body">
               <h5 class="card-title">Laboratorium Komputer 1</h5>
               <p class="card-text">Ruang yang dilengkapi dengan komputer dan internet untuk mendukung kegiatan belajar-mengajar dan pengembangan IT.</p>
@@ -214,7 +218,7 @@
         <!-- Fasilitas 2 -->
         <div class="col-md-4">
           <div class="card h-100 shadow-sm">
-            <img src="img/labkomputer2.jpeg" class="card-img-top" alt="Laboratorium Komputer 2">
+            <img src="img/labkomputer1.jpeg" class="card-img-top" alt="Laboratorium Komputer 2">
             <div class="card-body">
               <h5 class="card-title">Laboratorium Komputer 2</h5>
               <p class="card-text">Ruang yang dilengkapi dengan komputer dan internet untuk mendukung kegiatan belajar-mengajar dan pengembangan IT.</p>
@@ -288,13 +292,46 @@
           </div>
         </div>
 
-        <!-- Fasilitas 8 -->
+        <!-- Fasilitas 9 -->
         <div class="col-md-4">
           <div class="card h-100 shadow-sm">
             <img src="img/ruangkelas.jpeg" class="card-img-top" alt="Ruang Kelas">
             <div class="card-body">
               <h5 class="card-title">Ruang Kelas</h5>
               <p class="card-text">Ruang belajar yang nyaman dan dilengkapi dengan perleengkapan belajar seperti meja, kursi, dan papan tulis.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fasilitas 10 -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="img/areaparkir.jpeg" class="card-img-top" alt="Area Parkir">
+            <div class="card-body">
+              <h5 class="card-title">Area Parkir</h5>
+              <p class="card-text">Tempat parkir untuk siswa-siswi, guru, dan staf sekolah.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fasilitas 11 -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="img/ruangseni.jpeg" class="card-img-top" alt="Ruang Seni">
+            <div class="card-body">
+              <h5 class="card-title">Ruang Seni</h5>
+              <p class="card-text">Ruang yang dilengkapi dengan peralatan seni musik dan beberapa karya seni rupa.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fasilitas 12 -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="img/smarttvnew.jpeg" class="card-img-top" alt="Smart TV">
+            <div class="card-body">
+              <h5 class="card-title">Smart TV</h5>
+              <p class="card-text">TV pintar untuk menampilkan materi pembelajaran, mengakses video edukatif, dan berbagai konten interaktif lainnya, membuat pembelajaran lebih menarik dan interaktif.</p>
             </div>
           </div>
         </div>
@@ -310,7 +347,6 @@
           
           <header class="bg-primary text-white text-center py-5 mb-4">
             <h2 class="display-4" id="galerikami">Galeri Kami</h1>
-            <p class="lead">Momen Terbaik Kami</p>
           </header>
           
           <!-- Galeri Section -->
@@ -368,7 +404,7 @@
 
               <div class="col-lg-4 col-md-6 kegiatan">
                 <div class="gallery-item position-relative" data-aos="fade-up">
-                  <img src="img/smadelscout.jpeg" alt="Kegiatan Pramuka" class="img-fluid">
+                  <img src="img/smadelscout1.jpeg" alt="Kegiatan Pramuka" class="img-fluid">
                   <div class="caption-overlay">Penerimaan Tamu Ambalan (Organisasi Pramuka)</div>
                 </div>
               </div>
@@ -424,13 +460,7 @@
                       </form>
                     </div>
                   </div>
-                  <div class="text-center mt-4" data-aos="fade-up">
-                    <p>Ikuti kami di media sosial:</p>
-                    <a href="https://www.facebook.com/profile.php?id=61564101239525" class="text-decoration-none me-3" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
-                    <a href="https://www.tiktok.com/@humas.sman8lutim?is_from_webapp=1&sender_device=pc" class="text-decoration-none me-3" target="_blank"><i class="fab fa-tiktok fa-2x"></i></a>
-                    <a href="https://www.instagram.com/sman8luwutimur?igsh=OGFudXg0M3loYjJr" class="text-decoration-none me-3" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
-                    <a href="https://youtube.com/@sman8luwutimur569?si=-YXKpx3-tFlF6Aks" class="text-decoration-none" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
-                  </div>
+                  
                 </div>
               </section>
               </div>
@@ -448,6 +478,27 @@
               </div>
       
               <!--footer-->
+              <footer class="footer">
+                <div class="footer-content">
+                  <div class="footer-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Jl. Pendidikan No.03 Desa Mandiri, Kec. Tomoni, Kab. Luwu Timur</span>
+                    </div>
+                    <div class="footer-item">
+                      <p>Follow Us:</p>
+                      <a href="https://www.facebook.com/profile.php?id=61564101239525" class="text-decoration-none me-3" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                      <a href="https://www.tiktok.com/@humas.sman8lutim?is_from_webapp=1&sender_device=pc" class="text-decoration-none me-3" target="_blank"><i class="fab fa-tiktok fa-2x"></i></a>
+                      <a href="https://www.instagram.com/sman8luwutimur?igsh=OGFudXg0M3loYjJr" class="text-decoration-none me-3" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                      <a href="https://youtube.com/@sman8luwutimur569?si=-YXKpx3-tFlF6Aks" class="text-decoration-none" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+                    </div>
+                    <div class="footer-item">
+                      <i class="fas fa-envelope"></i>
+                      <span>sman.8lutim@gmail.com</span>
+                    </div>
+                    
+              </div>
+              </footer>
+              
               <div class="container text-center pt-5 pb-5">
                 <i class="fa-solid fa-heart"></i>
                 All Right Reserved &copy; 2025

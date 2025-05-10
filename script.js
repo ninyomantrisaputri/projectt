@@ -44,7 +44,7 @@ document.getElementById('contactForm').addEventListener('submit', function (e) {
     return;
   }
 
-  // Kirim data formulir (contoh menggunakan alert)
+  // Kirim data formulir
   alert('Terima kasih! Pesan Anda telah dikirim.');
 
   // Reset formulir
@@ -56,4 +56,3 @@ function validateEmail(email) {
   const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return re.test(email.toLowerCase());
 }
-
